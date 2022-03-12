@@ -7,10 +7,18 @@ print('Dan mulai berbelanja')
 
 # Percabangan
 jumlah_botol_susu = 173
+jumlah_telor = 2
+print(f'Jumlah botol susu {jumlah_botol_susu} botol')
+print(f'Jumlah telur {jumlah_telor} butir')
 
 if jumlah_botol_susu > 0:
     print("Budi menegecek harganya dan uangnya cukup")
-    print("Budi beli 1 botol susu")
+    if jumlah_telor >= 6:
+        print("Budi beli 1 botol susu dan 6 butir telur ")
+    elif jumlah_telor >= 1 and jumlah_telor <= 6:
+        print(f'budi membeli 1 botol susu  dan {jumlah_telor} butir telur')
+    else:
+        print('Budi beli 1 botol susu tanpa telur')
 else:
     print('Budi tidak jadi beli 1 botol susu')
 
