@@ -7,7 +7,7 @@ print('Dan mulai berbelanja')
 
 # Percabangan
 jumlah_botol_susu = 173
-jumlah_telor = 2
+jumlah_telor = 7
 print(f'Jumlah botol susu {jumlah_botol_susu} botol')
 print(f'Jumlah telur {jumlah_telor} butir')
 
