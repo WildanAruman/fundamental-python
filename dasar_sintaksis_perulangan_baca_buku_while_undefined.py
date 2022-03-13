@@ -2,6 +2,7 @@
 
 Program perulangan dengan while sampai paham
 
+
 """
 jumlah_buku = 10
 total_jumlah_baca=0
